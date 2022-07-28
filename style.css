@@ -1,0 +1,162 @@
+
+
+
+*{
+    margin: 0px; 
+    padding: 0px; 
+    outline: 0px;
+    font-family: 'Orbitron', sans-serif;
+}
+
+
+.container{
+   padding: 2%;
+}
+
+.navbar-container{
+    display: flex;
+   justify-content: center;
+   align-items: baseline;
+}
+.logo{
+text-align: left;
+}
+
+.list{
+    list-style: none;
+    display: flex;
+    align-items: baseline;
+    width: 600px;
+    padding: 0px 200px;
+}
+
+.list li{
+    flex-grow: 1;
+}
+
+.list li:first-child{
+    font-size: 25px;
+font-weight: bold;
+}
+.button-group{
+    display: flex;
+    justify-content: right;
+}
+.nav-button{
+    padding: 5px 35px;
+    font-family: Poppins,sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: #fff;
+    border-radius: 10px;
+    border: 3px solid #000;
+    margin-left: 20px;
+    color: #818181;
+  }
+  .hero-iamge
+  {
+   
+    display: contents;
+    
+  }
+.hero-iamge>img
+{
+    margin-left: 100px;
+    position:absolute;
+    height: 500px;
+}
+  
+.hero-container
+{
+    margin-top: 70px;
+  display:flex;
+}
+.square
+{
+position:inherit;
+left: 250px;
+top: 250px;
+}
+.square>img
+{
+    height: 300px;
+    z-index: -1;
+}
+.globe{
+    position: absolute;
+    left: 680px;
+    top: -30px;
+  }
+  .globe>img{
+      height: 50px;
+  }
+
+.star{
+    position: absolute;
+    left: 1300px;
+}
+.star>img{
+    height: 50px;
+  
+}
+
+.hero-container:last-child
+{
+position:relative;
+
+}
+
+.hero-container-right{
+    padding-top: 50px;
+    padding-left: 300px;
+    text-align: center;
+  }
+  
+  h1{
+    font-size: 45px;
+    margin-bottom: 80px;
+    margin-top: 30px;
+  }
+  p{
+    font-family: Poppins,sans-serif;
+    font-size: 14px;
+    text-align: center;
+    display: block;
+    padding: 0px 70px;
+    margin-bottom: 50px;
+  }
+  .button-email{
+    background-color: transparent;
+    border: 2px solid #1f1f1f;
+    border-radius: 0.6em;
+    color: #1f1f1f;
+    font-size: 1rem;
+    padding: 5px 15px;
+    margin: 10px;
+    cursor: grab;
+    text-align: center;
+    font-weight: 400;
+    transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+  }
+  .button-join{
+    background-color: #000;
+    border: 2px solid #1f1f1f;
+    border-radius: 0.6em;
+    color: #ffffff;
+    font-size: 1rem;
+    padding: 5px 15px;
+    margin: 10px;
+    cursor: grab;
+    text-align: center;
+    font-weight: 400;
+    transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+  }
+
+  
+  .contact-heading
+  {
+    margin-top: 50px;
+  }
+  .icons{
+    margin-top: 50px;
+  }
